@@ -29,12 +29,12 @@ Kubernetes is used for experiments since I want the experience, I'm using Flux t
 
 Wireguard is setup through the Docker and exposed to the router, then port forwarded. I use this for remote management for whenever I need to restart a service or use one of the services.
 A good use case is also the NAS, enabling other people in my family to use the NAS is important to me, although quite tedious because it requires them to do technical vpn configuration.
-
+```
 Internet -> Router -> VPN -> OMV
-\`                         | Docker Services
-\`                         | Kubernetes Cluster with Flux
-\`                         | NAS Storage
-
+                           | Docker Services
+                           | Kubernetes Cluster with Flux
+                           | NAS Storage
+```
 I’m considering buying a domain and exposing a secure login gateway so the NAS can be accessed without requiring a VPN. I haven’t done this yet because I want to ensure the security model is solid first.
 
 ## Things I've learned so far
